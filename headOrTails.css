@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(25,25,25);
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  margin-left: 30px;
+}
+
+.heads-btn{
+  margin-top: 25px;
+  padding: 10px 2px 10px 2px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tails-btn{
+  background-color: rgb(255,163,26);
+  padding: 10px 2px 10px 2px;
+  border-radius: 10px;
+  color: rgb(27,27,27);
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.heads-btn:hover{
+  background-color: rgb(255,163,26);
+  border-radius: 10px;
+  color: rgb(27,27,27);
+}
+
+.tails-btn:hover{
+  background-color: transparent;
+  border:none;
+  color: white;
+}
+
+.result{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tossResult{
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.scoreboard{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.reset-btn{
+  margin-top: 25px;
+  padding: 10px 2px 10px 0px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 0px;
+}
+
+.reset-btn2{
+  background-color: rgb(255,163,26);
+  padding: 10px 0px 10px 2px;
+  border-radius: 10px;
+  color: rgb(27,27,27);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 0px;
+}
